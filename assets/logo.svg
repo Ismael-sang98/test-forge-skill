@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" fill="none">
+  <defs>
+    <linearGradient id="tf-bg" x1="28" y1="28" x2="228" y2="228" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0F172A" />
+      <stop offset="100%" stop-color="#1E1B4B" />
+    </linearGradient>
+    <linearGradient id="tf-shield" x1="68" y1="52" x2="188" y2="206" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#10B981" />
+      <stop offset="55%" stop-color="#06B6D4" />
+      <stop offset="100%" stop-color="#6366F1" />
+    </linearGradient>
+    <linearGradient id="tf-badge" x1="146" y1="138" x2="206" y2="206" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#F43F5E" />
+      <stop offset="100%" stop-color="#E11D48" />
+    </linearGradient>
+  </defs>
+
+  <!-- 10% safe outer margin: 26..230 -->
+  <rect x="26" y="26" width="204" height="204" rx="46" fill="url(#tf-bg)" stroke="#10B981" stroke-width="5" />
+
+  <!-- Outer Fortress Security Shield -->
+  <path d="M128 54 L184 74 V124 C184 162 159 190 128 202 C97 190 72 162 72 124 V74 L128 54 Z" fill="#0B132B" stroke="url(#tf-shield)" stroke-width="7" stroke-linejoin="round" />
+
+  <!-- Inner Radar / Test Pulse Ring -->
+  <circle cx="128" cy="124" r="32" stroke="#38BDF8" stroke-width="3" stroke-dasharray="7 6" opacity="0.7" />
+
+  <!-- Precision Verification Checkmark -->
+  <path d="M107 125 L122 140 L151 108" stroke="#34D399" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" />
+
+  <!-- Red-Team Sentinel Dot Badge -->
+  <circle cx="178" cy="176" r="24" fill="url(#tf-badge)" stroke="#0F172A" stroke-width="5" />
+  <path d="M178 165 V178" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" />
+  <circle cx="178" cy="187" r="3" fill="#FFFFFF" />
+</svg>

@@ -1,0 +1,5 @@
+{
+  "name": "test-forge",
+  "version": "1.0.0",
+  "description": "Strict, stack-aware autonomous QA & Security Testing plugin: auto-detects project stacks (Web, Mobile, Backend, Firebase), blocks leaked secrets, orchestrates Red-Team security audits, functional/regression/performance/parity tests, writes docs/qa/TEST_FORGE_REPORT.md, and always awaits user approval before remediation."
+}

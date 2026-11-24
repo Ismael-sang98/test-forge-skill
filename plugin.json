@@ -1,0 +1,12 @@
+{
+  "name": "test-forge",
+  "displayName": "TestForge — Autonomous QA & Security Testing Suite",
+  "version": "1.0.0",
+  "description": "Strict, stack-aware automated QA & Security Testing plugin for Web (Next.js/React), Mobile (Flutter/React Native), Backend (Node/Python/Spring Boot), Firebase, and more: auto-detects project stack, blocks secrets in real time, runs functional/regression/security/pentest/load suites, saves docs/qa/TEST_FORGE_REPORT.md, and awaits user approval before fixes.",
+  "logo": "assets/logo.svg",
+  "suggestedPrompts": [
+    "Use test-auto to detect my project stack, run all applicable QA & security tests, and generate docs/qa/TEST_FORGE_REPORT.md",
+    "Use test-security to launch a deep Red-Team security audit and local pentest before production",
+    "Use test-functional to write missing unit, integration, E2E, and regression tests for my latest changes"
+  ]
+}
